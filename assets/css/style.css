@@ -133,7 +133,7 @@ a:active {
 
 }
 
-li {  
+.links {  
     color: gray;  
     padding: 20px 0px 20px 0px;
     float: right;
@@ -191,13 +191,9 @@ footer {
     .links {
         background-color: white;
         width: 100%;
-    }
-
-    ol {
-        float: none;
-        text-align: center;
+        height: 100%;
         margin: 0 auto;
-        background-color: white;
+        text-align: center;
     }
 
     .logo {
@@ -206,6 +202,11 @@ footer {
         margin: 0 auto;
         text-align: center;
      
+    }
+
+       
+    textarea {
+        width: 100%;
     }
 }
 
@@ -219,13 +220,9 @@ footer {
     .links {
         background-color: white;
         width: 100%;
-    }
-
-    ol {
-        float: none;
-        text-align: center;
+        height: 100%;
         margin: 0 auto;
-        background-color: white;
+        text: align-center;
     }
 
     .logo {
@@ -236,9 +233,18 @@ footer {
      
     }  
 
+       
+    textarea {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 640px) {
+    nav {
+        background-color: white;
+        height: 200px;
+    }
     .container {
         width: 100%;
         margin: 0 auto;
@@ -248,13 +254,16 @@ footer {
     .links {
         background-color: white;
         width: 100%;
+        height: 50px;
+        margin: 0 auto;
+        text-align: center;
     }
 
-    ol {
-        float: none;
-        text-align: center;
-        margin: 0 auto;
+
+    li {
+        width: 100%;
         background-color: white;
+        height: 100px;
     }
 
     .logo {
@@ -265,6 +274,9 @@ footer {
      
     }
    
+    textarea {
+        width: 100%;
+    }
     
 }
 
