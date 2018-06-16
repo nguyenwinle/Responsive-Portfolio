@@ -73,7 +73,9 @@ h1 {
     padding: 20px 0px 20px 0px;
 
 }
-
+textarea {
+    width: 100%;
+}
 p {
     font-size: 18px;
     line-height: 1.8;
@@ -170,8 +172,8 @@ input[type=submit] {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    top: 300px;
     width: 100%;
     color: #ffffff;
     background-color: #666666;
@@ -182,6 +184,16 @@ footer {
 }
 
 @media (max-width: 980px) {
+    .pic {
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        
+        
     .container {
         width: 100%;
         margin: 0 auto;
@@ -211,6 +223,16 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .pic {
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        
+
     .container {
         width: 100%;
         margin: 0 auto;
@@ -241,6 +263,16 @@ footer {
 }
 
 @media screen and (max-width: 640px) {
+    .pic {
+        width: 100%;
+    }
+
+    p {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        
+    }
     nav {
         background-color: white;
         height: 200px;
